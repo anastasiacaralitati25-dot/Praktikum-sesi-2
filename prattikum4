@@ -1,0 +1,25 @@
+let nama="Alice";
+let umur=25;
+const jurusan="Teknik Informatika";
+let tinggi=170;
+let mahasiswaaktif=true;
+let alamat="bandung";
+let nilai=85.5;
+let lulus=true;
+
+console.log("Nama:", nama);
+console.log("Umur:", umur);
+console.log("Jurusan:", jurusan);
+console.log("Tinggi:", tinggi);
+console.log("Mahasiswa Aktif:", mahasiswaaktif);
+console.log("Alamat:", alamat);
+console.log("Nilai:", nilai);
+console.log("Lulus:", lulus);
+console.log(typeof nama);
+console.log(typeof umur);
+console.log(typeof jurusan);
+console.log(typeof tinggi);
+console.log(typeof mahasiswaaktif);
+console.log(typeof alamat);
+console.log(typeof nilai);
+console.log(typeof lulus);

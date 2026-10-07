@@ -1,0 +1,14 @@
+let sisi = 5;
+let luasPersegi = sisi * sisi;
+
+console.log("Luas Persegi:", luasPersegi);
+
+let alas = 10;
+let tinggi = 8;
+let luasSegitiga = 0.5 * alas * tinggi;
+
+console.log("Luas Segitiga:", luasSegitiga);
+
+let r = 7;
+let luasLingkaran = Math.PI * r * r;
+console.log("Luas Lingkaran:", luasLingkaran);

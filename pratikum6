@@ -1,0 +1,13 @@
+const readline = require('readline');
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+rl.question("nama mahasiswa:", function (nama) {
+rl.question("nilai tugas:", function (tugas) {
+rl.question("nilai uts:", function (uts) {
+rl.question("nilai uas:", function (uas) {
+
+    console.log("nilai akhir:", tugas * 0.3 + uts * 0.35 + uas * 0.4);
+    rl.close();});});});});
